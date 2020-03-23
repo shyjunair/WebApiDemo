@@ -38,6 +38,11 @@ namespace WindowsFormsApp3
             }
         }
 
+        /// <summary>
+        /// Execute method
+        /// </summary>
+        /// <param name="baseAddress"></param>
+        /// <returns></returns>
         async Task Execute(string baseAddress)
         {
             using (var client = new HttpClient())
